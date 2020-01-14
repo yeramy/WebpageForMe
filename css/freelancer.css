@@ -421,14 +421,7 @@ hr.style2{
 i {
   color: #2C3E50;
 }
-img.centered {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-iframe {
-  width: 80%;
-}
+
 iframe.thumb {
    border: 0;
    height: 80%;
@@ -438,4 +431,13 @@ iframe.singlethumb {
    border: 0;
    height: 500px;
    width: 100%;
+}
+@media only screen and (max-width: 769px) {
+  iframe {
+    width: 70%;
+  }
+  #clock {
+    zoom: 0.6;
+   -moz-transform: scale(0.6)
+  }
 }
