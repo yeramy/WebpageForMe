@@ -433,11 +433,33 @@ iframe.singlethumb {
    width: 100%;
 }
 @media only screen and (max-width: 769px) {
-  iframe {
-    width: 70%;
-  }
   #clock {
-    zoom: 0.6;
-   -moz-transform: scale(0.6)
+    display: inline-block;
+    width: auto;
+    zoom: 0.65;
+   -moz-transform: scale(0.65)
   }
+}
+@media only screen and (max-width: 480px) {
+  #clock {
+    display: inline-block;
+    width: auto;
+    zoom: 0.5;
+   -moz-transform: scale(0.5)
+  }
+}
+@media only screen and (min-width: 769px) {
+  #clock {
+    display: inline-block;
+    width: auto;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  #clock {
+    display: inline-block;
+    width: auto;
+    zoom: 1.5;
+   -moz-transform: scale(1.5)
+  }
+}
 }
