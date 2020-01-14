@@ -69,6 +69,10 @@ section h2 {
   font-size: 2.25rem;
   line-height: 2rem;
 }
+#clock {
+  display: inline-block;
+  width: auto;
+}
 
 @media (min-width: 992px) {
   section h2 {
@@ -382,6 +386,7 @@ a:focus, a:hover, a:active {
   background-color: #1a252f;
   border-color: #1a252f;
 }
+
 * {
   text-align: center;
 }
@@ -433,8 +438,4 @@ iframe.singlethumb {
    border: 0;
    height: 500px;
    width: 100%;
-}
-#clock {
-  display: inline-block;
-  width: auto;
 }
