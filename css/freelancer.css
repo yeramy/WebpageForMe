@@ -421,7 +421,9 @@ hr.style2{
 i {
   color: #2C3E50;
 }
-
+iframe. {
+   width: 100%;
+}
 iframe.thumb {
    border: 0;
    height: 80%;
@@ -444,8 +446,8 @@ iframe.singlethumb {
   #clock {
     display: inline-block;
     width: auto;
-    zoom: 0.45;
-   -moz-transform: scale(0.45)
+    zoom: 0.4;
+   -moz-transform: scale(0.4)
   }
 }
 @media only screen and (min-width: 769px) {
